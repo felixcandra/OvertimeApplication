@@ -1,0 +1,6 @@
+E:\Kerja\Bootcamp\OvertimeApplication\OvertimeApplication\WPF.Overtime\Overtime.DataAccess\bin\Debug\Overtime.DataAccess.exe.config
+E:\Kerja\Bootcamp\OvertimeApplication\OvertimeApplication\WPF.Overtime\Overtime.DataAccess\bin\Debug\Overtime.DataAccess.exe
+E:\Kerja\Bootcamp\OvertimeApplication\OvertimeApplication\WPF.Overtime\Overtime.DataAccess\bin\Debug\Overtime.DataAccess.pdb
+E:\Kerja\Bootcamp\OvertimeApplication\OvertimeApplication\WPF.Overtime\Overtime.DataAccess\obj\Debug\Overtime.DataAccess.csprojResolveAssemblyReference.cache
+E:\Kerja\Bootcamp\OvertimeApplication\OvertimeApplication\WPF.Overtime\Overtime.DataAccess\obj\Debug\Overtime.DataAccess.exe
+E:\Kerja\Bootcamp\OvertimeApplication\OvertimeApplication\WPF.Overtime\Overtime.DataAccess\obj\Debug\Overtime.DataAccess.pdb
