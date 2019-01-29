@@ -52,10 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="iEmployeeService.cs" />
-    <Compile Include="Master\EmployeeService.cs" />
+    <Compile Include="Services\iEmployeeService.cs" />
+    <Compile Include="Services\Master\EmployeeService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\IOvertimeService.cs" />
+    <Compile Include="Services\Master\OvertimeService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

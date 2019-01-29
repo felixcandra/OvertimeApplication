@@ -25,9 +25,9 @@ namespace Overtime.DataAccess.Model
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Employee> Employees { get; set; }
-        public virtual DbSet<Overtime> Overtimes { get; set; }
-        public virtual DbSet<Param> Params { get; set; }
-        public virtual DbSet<Position> Positions { get; set; }
+        public virtual DbSet<Employees> Employees { get; set; }
+        public virtual DbSet<Overtimes> Overtimes { get; set; }
+        public virtual DbSet<Param> Param { get; set; }
+        public virtual DbSet<Position> Position { get; set; }
     }
 }

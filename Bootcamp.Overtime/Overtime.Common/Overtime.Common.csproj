@@ -53,7 +53,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interface\iEmployeeRepository.cs" />
+    <Compile Include="Interface\IOvertimeRepository.cs" />
     <Compile Include="Interface\Master\EmployeeRepository.cs" />
+    <Compile Include="Interface\Master\OvertimeRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

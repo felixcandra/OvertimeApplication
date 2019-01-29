@@ -64,20 +64,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EmployeePage.xaml.cs">
+      <DependentUpon>EmployeePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -104,6 +103,34 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="EmployeePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Overtime.BusinessLogic\Overtime.BusinessLogic.csproj">
+      <Project>{78e91320-1ea0-46a1-a1cf-b3563f623d43}</Project>
+      <Name>Overtime.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Overtime.Common\Overtime.Common.csproj">
+      <Project>{386f0693-22ee-42bd-a304-38ec1664526f}</Project>
+      <Name>Overtime.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Overtime.Core\Overtime.Core.csproj">
+      <Project>{d6b6c61b-fb73-4857-b76a-320f32171e82}</Project>
+      <Name>Overtime.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Overtime.DataAccess\Overtime.DataAccess.csproj">
+      <Project>{134d963c-d408-4777-a303-a4101378414e}</Project>
+      <Name>Overtime.DataAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

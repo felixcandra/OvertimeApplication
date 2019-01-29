@@ -10,13 +10,13 @@ namespace Overtime.Common.Interface.Master
 {
     public class EmployeeRepository : iEmployeeRepository
     {
-        Employee employee = new Employee();
+        Employees employee = new Employees();
         MyContex _context = new MyContex();
         bool status = false;
         public bool Delete(int? id)
         {
             var result = 0;
-            Employee employee = Get(id);
+            Employees employee = Get(id);
             employee.isDelete = true;
             employee.deleteDate = DateTimeOffset.Now.LocalDateTime;
             result = _context.SaveChanges();
@@ -27,13 +27,13 @@ namespace Overtime.Common.Interface.Master
             return status;
         }
 
-        public List<Employee> Get()
+        public List<Employees> Get()
         {
             var getAll = _context.Employees.Where(x => x.isDelete == false).ToList();
             return getAll;
         }
 
-        public Employee Get(int? id)
+        public Employees Get(int? id)
         {
             var get = _context.Employees.Find(id);
             return get;
@@ -63,7 +63,7 @@ namespace Overtime.Common.Interface.Master
             return status;
         }
 
-        public List<Employee> Search(string search, string cmb)
+        public List<Employees> Search(string search, string cmb)
         {
             if(cmb == "Id")
             {
@@ -90,7 +90,7 @@ namespace Overtime.Common.Interface.Master
         public bool Update(int? id, EmployeeParam employeeParam)
         {
             var result = 0;
-            Employee employee = Get(id);
+            Employees employee = Get(id);
             employee.first_name = employeeParam.first_name;
             employee.last_name = employeeParam.last_name;
             employee.username = employeeParam.username;
