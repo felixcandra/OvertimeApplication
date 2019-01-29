@@ -1,6 +1,0 @@
-E:\Kerja\Bootcamp\OvertimeApplication\OvertimeApplication\WPF.Overtime\Overtime.Common\bin\Debug\Overtime.Common.exe.config
-E:\Kerja\Bootcamp\OvertimeApplication\OvertimeApplication\WPF.Overtime\Overtime.Common\bin\Debug\Overtime.Common.exe
-E:\Kerja\Bootcamp\OvertimeApplication\OvertimeApplication\WPF.Overtime\Overtime.Common\bin\Debug\Overtime.Common.pdb
-E:\Kerja\Bootcamp\OvertimeApplication\OvertimeApplication\WPF.Overtime\Overtime.Common\obj\Debug\Overtime.Common.csprojResolveAssemblyReference.cache
-E:\Kerja\Bootcamp\OvertimeApplication\OvertimeApplication\WPF.Overtime\Overtime.Common\obj\Debug\Overtime.Common.exe
-E:\Kerja\Bootcamp\OvertimeApplication\OvertimeApplication\WPF.Overtime\Overtime.Common\obj\Debug\Overtime.Common.pdb
