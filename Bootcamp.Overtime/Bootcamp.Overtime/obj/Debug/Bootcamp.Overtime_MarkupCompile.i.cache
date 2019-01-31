@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\App.xaml
-3-1320898047
+61912363115
 
-11-2139070266
+141613910147
 20-1752199075
-EmployeePage.xaml;MainWindow.xaml;PositionPage.xaml;
+EmployeePage.xaml;MainWindow.xaml;PopUpPosition\PopUpDeletePosition.xaml;PopUpPosition\PopUpInsertPosition.xaml;PopUpPosition\PopUpUpdatePosition.xaml;PositionPage.xaml;
 
-False
+True
 

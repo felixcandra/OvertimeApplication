@@ -12,3 +12,17 @@ C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\obj\Debug\Overtime.BusinessLogic.csprojResolveAssemblyReference.cache
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\obj\Debug\Overtime.BusinessLogic.exe
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\obj\Debug\Overtime.BusinessLogic.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\bin\Debug\Overtime.BusinessLogic.exe.config
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\bin\Debug\Overtime.BusinessLogic.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\bin\Debug\Overtime.BusinessLogic.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\bin\Debug\EntityFramework.dll
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\bin\Debug\Overtime.Common.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\bin\Debug\Overtime.DataAccess.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\bin\Debug\Overtime.Common.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\bin\Debug\Overtime.DataAccess.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\bin\Debug\EntityFramework.xml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\obj\Debug\Overtime.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\obj\Debug\Overtime.BusinessLogic.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.BusinessLogic\obj\Debug\Overtime.BusinessLogic.pdb
