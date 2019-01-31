@@ -29,9 +29,9 @@ namespace Overtime.DataAccess.Model
         public string sub_district { get; set; }
         public string district { get; set; }
         public string province { get; set; }
-        public Nullable<int> postal_code { get; set; }
+        public string postal_code { get; set; }
         public Nullable<int> salary { get; set; }
-        public Nullable<int> phone { get; set; }
+        public string phone { get; set; }
         public Nullable<int> position_id { get; set; }
         public Nullable<bool> isDelete { get; set; }
         public Nullable<System.DateTimeOffset> createDate { get; set; }

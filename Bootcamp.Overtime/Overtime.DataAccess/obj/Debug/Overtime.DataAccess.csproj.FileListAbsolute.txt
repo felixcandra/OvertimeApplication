@@ -7,3 +7,4 @@ C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\obj\Debug\Overtime.DataAccess.exe
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\obj\Debug\Overtime.DataAccess.pdb
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\obj\Debug\Overtime.DataAccess.csprojResolveAssemblyReference.cache

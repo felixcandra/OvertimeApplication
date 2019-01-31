@@ -13,8 +13,9 @@ namespace Overtime.Common.Interfaces
         List<Overtimes> Get();
 
         List<Overtimes> Get(int? Id);
+        Overtimes GetId(int? Id);
 
         bool Insert(OvertimeParam overtimeParam);
-        bool Update(OvertimeParam overtimeParam);
+        bool Update(int? Id,OvertimeParam overtimeParam);
     }
 }

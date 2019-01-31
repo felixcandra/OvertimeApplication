@@ -8,6 +8,7 @@ using Overtime.Common.Interface;
 using Overtime.Common.Interface.Master;
 using Overtime.Common.Interfaces;
 using Overtime.Common.Interfaces.Master;
+using Overtime.DataAccess.Param;
 
 namespace Overtime.BussinessLogic.Services.Master
 {
@@ -22,6 +23,21 @@ namespace Overtime.BussinessLogic.Services.Master
         public List<Overtimes> Get(int? Id)
         {
             return _overtimeRepository.Get(Id);
+        }
+
+        public Overtimes GetId(int? Id)
+        {
+            return _overtimeRepository.GetId(Id);
+        }
+
+        public bool Insert(OvertimeParam overtimeParam)
+        {
+            return _overtimeRepository.Insert(overtimeParam);
+        }
+
+        public bool Update(int? Id, OvertimeParam overtimeParam)
+        {
+            return _overtimeRepository.Update(Id, overtimeParam);
         }
     }
 }

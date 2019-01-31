@@ -110,5 +110,23 @@ namespace Overtime.Common.Interface.Master
             }
             return status;
         }
+
+        public Employees Login(string username, string password)
+        {
+            return _context.Employees.FirstOrDefault(x => x.username == username && x.password == password);
+        }
+
+        public bool UpdatePass(int? id, EmployeeParam employeeParam)
+        {
+            var result = 0;
+            Employees employee = Get(id);
+            employee.password = employeeParam.password;
+            result = _context.SaveChanges();
+            if (result > 0)
+            {
+                status = true;
+            }
+            return status;
+        }
     }
 }

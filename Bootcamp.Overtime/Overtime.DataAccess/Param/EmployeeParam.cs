@@ -17,9 +17,9 @@ namespace Overtime.DataAccess.Param
         public string sub_district { get; set; }
         public string district { get; set; }
         public string province { get; set; }
-        public int postal_code { get; set; }
+        public string postal_code { get; set; }
         public int salary { get; set; }
-        public int phone { get; set; }
+        public string phone { get; set; }
         public int? position_id { get; set; }
     }
 }
