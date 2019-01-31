@@ -5,21 +5,60 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bootcamp.Overtime"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="299" Margin="10,10,0,0" VerticalAlignment="Top" Width="497">
-            <TabItem Header="Employee">
+        Title="Overtime Application" Height="361.842" Width="472.368"
+        Loaded="Window_Loaded"
+        >
+
+    <Grid Margin="0,0,2,-8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="248*"/>
+            <ColumnDefinition Width="197*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="173*"/>
+            <RowDefinition Height="146*"/>
+        </Grid.RowDefinitions>
+        <TabControl x:Name="tabControl" Grid.RowSpan="2" Margin="7,0,0,0" SelectionChanged="tabControl_SelectionChanged" Grid.ColumnSpan="4" >
+            <TabItem Header="Employee" Height="22" VerticalAlignment="Bottom">
                 <Grid Background="#FFE5E5E5">
-                    <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,138,0,0" VerticalAlignment="Top" Height="123" Width="481"/>
-                    <Button x:Name="InsertButton" Content="Insert" HorizontalAlignment="Left" Margin="29,106,0,0" VerticalAlignment="Top" Width="75"/>
-                    <Button x:Name="UpdateButton" Content="Update" HorizontalAlignment="Left" Margin="123,106,0,0" VerticalAlignment="Top" Width="75"/>
-                    <Button x:Name="DeleteButton" Content="Delete" HorizontalAlignment="Left" Margin="220,106,0,0" VerticalAlignment="Top" Width="75"/>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="75*"/>
+                        <ColumnDefinition Width="17*"/>
+                        <ColumnDefinition Width="9*"/>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="382*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="0,138,0,-2" VerticalAlignment="Top" Height="133" Width="491" Grid.ColumnSpan="5"/>
+
                 </Grid>
             </TabItem>
-            <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5"/>
+            <TabItem Header="Position Empoyees">
+                <Grid Background="Wheat" Margin="0,5,5,0" Height="287" VerticalAlignment="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="69*"/>
+                        <ColumnDefinition Width="389*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="textBoxSearch" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="154,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
+                    <Button x:Name="buttonSearch" Content="Search" Grid.Column="2" HorizontalAlignment="Left" Margin="244,19,0,0" VerticalAlignment="Top" Width="75" Click="buttonSearch_Click"/>
+                    <Button x:Name="buttonInsertPosition" Content="Insert" Grid.Column="1" HorizontalAlignment="Left" Margin="30,98,0,0" VerticalAlignment="Top" Width="75" Click="buttonInsertPosition_Click" Grid.ColumnSpan="2"/>
+                    <Button x:Name="buttonUpdatePosition" Content="Update" Grid.Column="2" HorizontalAlignment="Left" Margin="110,98,0,0" VerticalAlignment="Top" Width="75" Click="buttonUpdatePosition_Click"/>
+                    <Button x:Name="buttonDeletePosition" Content="Delete" Grid.Column="2" HorizontalAlignment="Left" Margin="244,98,0,0" VerticalAlignment="Top" Width="75" Click="buttonDeletePosition_Click"/>
+                    <DataGrid x:Name="dataGrid1" AutoGenerateColumns="False" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="128" Margin="30,134,0,0" VerticalAlignment="Top" Width="354" Grid.Column="1">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Position Name" Binding="{Binding Path=name}"></DataGridTextColumn>
+                            <DataGridTextColumn/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <ComboBox x:Name="SearchComboBox" Grid.Column="2" HorizontalAlignment="Left" Height="20" Margin="42,19,0,0" VerticalAlignment="Top" Width="75">
+                        <ComboBoxItem Content="Id" HorizontalAlignment="Left" Width="94"/>
+                        <ComboBoxItem Content="Position" HorizontalAlignment="Left" Width="94"/>
+                    </ComboBox>
+                </Grid>
             </TabItem>
         </TabControl>
-
     </Grid>
 </Window>

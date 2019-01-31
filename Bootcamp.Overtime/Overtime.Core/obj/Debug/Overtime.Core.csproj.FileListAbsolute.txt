@@ -7,3 +7,13 @@ C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.Core\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.Core\obj\Debug\Overtime.Core.exe
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.Core\obj\Debug\Overtime.Core.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.Core\bin\Debug\Overtime.Core.exe.config
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.Core\bin\Debug\Overtime.Core.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.Core\bin\Debug\Overtime.Core.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.Core\bin\Debug\EntityFramework.dll
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.Core\bin\Debug\EntityFramework.xml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.Core\obj\Debug\Overtime.Core.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.Core\obj\Debug\Overtime.Core.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.Core\obj\Debug\Overtime.Core.csprojResolveAssemblyReference.cache

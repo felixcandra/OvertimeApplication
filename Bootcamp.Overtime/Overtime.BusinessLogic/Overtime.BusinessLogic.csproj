@@ -57,7 +57,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\IOvertimeService.cs" />
+    <Compile Include="Services\iPositionService.cs" />
     <Compile Include="Services\Master\OvertimeService.cs" />
+    <Compile Include="Services\Master\PositionService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -4,6 +4,7 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD:Bootcamp.Overtime/Bootcamp.Overtime/obj/Debug/WPF.Overtime_MarkupCompile.cache
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\
 WPF.Overtime
 none
@@ -15,6 +16,19 @@ C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication
 81117333293
 231407052478
 ChangeUserPass.xaml;EmployeePage.xaml;LoginPage.xaml;MainWindow.xaml;
+=======
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\
+Bootcamp.Overtime
+none
+false
+DEBUG;TRACE
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\App.xaml
+61912363115
+
+10-1367574965
+20-1752199075
+EmployeePage.xaml;MainWindow.xaml;PopUpPosition\PopUpDeletePosition.xaml;PopUpPosition\PopUpInsertPosition.xaml;PopUpPosition\PopUpUpdatePosition.xaml;PositionPage.xaml;
+>>>>>>> 112c4622c4d4b9c48416d1c75a7fc9475ecd322e:Bootcamp.Overtime/Bootcamp.Overtime/obj/Debug/Bootcamp.Overtime_MarkupCompile.cache
 
 False
 

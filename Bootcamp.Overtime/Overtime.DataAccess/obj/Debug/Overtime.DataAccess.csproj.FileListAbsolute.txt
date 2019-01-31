@@ -7,4 +7,17 @@ C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\obj\Debug\Overtime.DataAccess.exe
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\obj\Debug\Overtime.DataAccess.pdb
+<<<<<<< HEAD
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\obj\Debug\Overtime.DataAccess.csprojResolveAssemblyReference.cache
+=======
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\bin\Debug\Overtime.DataAccess.exe.config
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\obj\Debug\Overtime.DataAccess.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\obj\Debug\Overtime.DataAccess.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\bin\Debug\Overtime.DataAccess.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\bin\Debug\Overtime.DataAccess.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\bin\Debug\EntityFramework.dll
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\bin\Debug\EntityFramework.xml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Overtime.DataAccess\obj\Debug\Overtime.DataAccess.csprojResolveAssemblyReference.cache
+>>>>>>> 112c4622c4d4b9c48416d1c75a7fc9475ecd322e

@@ -83,6 +83,7 @@
     </Compile>
     <Compile Include="Param\EmployeeParam.cs" />
     <Compile Include="Param\OvertimeParam.cs" />
+    <Compile Include="Param\PositionParam.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -27,6 +27,7 @@ C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\WPF.Overtime.g.resources
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\WPF.Overtime.Properties.Resources.resources
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\WPF.Overtime.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\WPF.Overtime.exe
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\WPF.Overtime.pdb
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\ControlzEx.dll
@@ -38,3 +39,43 @@ C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\App.baml
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\ChangeUserPass.g.cs
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\ChangeUserPass.baml
+=======
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\Bootcamp.Overtime.exe
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Git\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\Bootcamp.Overtime.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\Bootcamp.Overtime.exe.config
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\Bootcamp.Overtime.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\Bootcamp.Overtime.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\WPF.Overtime.csprojResolveAssemblyReference.cache
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\EmployeePage.g.cs
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\MainWindow.g.cs
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\PopUpPosition\PopUpDeletePosition.g.cs
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\PopUpPosition\PopUpInsertPosition.g.cs
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\PopUpPosition\PopUpUpdatePosition.g.cs
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\PositionPage.g.cs
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\App.g.cs
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\Bootcamp.Overtime_MarkupCompile.cache
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\Bootcamp.Overtime_MarkupCompile.lref
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\Bootcamp.Overtime.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\Bootcamp.Overtime.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\EntityFramework.dll
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\EntityFramework.SqlServer.dll
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\Overtime.BusinessLogic.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\Overtime.Common.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\Overtime.Core.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\Overtime.DataAccess.exe
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\Overtime.BusinessLogic.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\Overtime.Common.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\Overtime.Core.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\Overtime.DataAccess.pdb
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\EntityFramework.xml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\bin\Debug\EntityFramework.SqlServer.xml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\EmployeePage.baml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\MainWindow.baml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\PopUpPosition\PopUpDeletePosition.baml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\PopUpPosition\PopUpInsertPosition.baml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\PopUpPosition\PopUpUpdatePosition.baml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\PositionPage.baml
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\Bootcamp.Overtime.g.resources
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\Bootcamp.Overtime.Properties.Resources.resources
+D:\New folder (2)\Overtime\OvertimeApplication\Bootcamp.Overtime\Bootcamp.Overtime\obj\Debug\WPF.Overtime.csproj.GenerateResource.Cache
+>>>>>>> 112c4622c4d4b9c48416d1c75a7fc9475ecd322e
