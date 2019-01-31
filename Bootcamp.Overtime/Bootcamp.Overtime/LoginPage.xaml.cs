@@ -19,6 +19,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using WPF.Overtime.Properties;
 using MahApps.Metro.Controls;
+using Bootcamp.Overtime;
 
 namespace WPF.Overtime
 {
@@ -56,7 +57,9 @@ namespace WPF.Overtime
                 _overtimeService.Insert(overtimeParam);
                 if (Settings.Default.Position == "Admin")
                 {
-                    MessageBox.Show("Admin Page");
+                    MainWindow main = new MainWindow();
+                    main.Show();
+                    this.Close();
                 }
                 else
                 {

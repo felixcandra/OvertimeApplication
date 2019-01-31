@@ -76,7 +76,7 @@ namespace Bootcamp.Overtime {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Bootcamp.Overtime;component/popupposition/popupinsertposition.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPF.Overtime;component/popupposition/popupinsertposition.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PopUpPosition\PopUpInsertPosition.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

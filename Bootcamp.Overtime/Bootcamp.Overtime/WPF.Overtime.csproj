@@ -177,10 +177,6 @@
       <Project>{386f0693-22ee-42bd-a304-38ec1664526f}</Project>
       <Name>Overtime.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Overtime.Core\Overtime.Core.csproj">
-      <Project>{d6b6c61b-fb73-4857-b76a-320f32171e82}</Project>
-      <Name>Overtime.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Overtime.DataAccess\Overtime.DataAccess.csproj">
       <Project>{134d963c-d408-4777-a303-a4101378414e}</Project>
       <Name>Overtime.DataAccess</Name>
