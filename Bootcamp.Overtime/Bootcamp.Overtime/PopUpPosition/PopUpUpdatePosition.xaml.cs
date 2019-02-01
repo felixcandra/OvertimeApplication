@@ -13,13 +13,14 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using MahApps.Metro.Controls;
 
 namespace Bootcamp.Overtime
 {
     /// <summary>
     /// Interaction logic for PopUpUpdatePosition.xaml
     /// </summary>
-    public partial class PopUpUpdatePosition : Window
+    public partial class PopUpUpdatePosition : MetroWindow
     {
         PositionParam positionParam = new PositionParam();
         iPositionService _positionService = new PositionService();
@@ -52,6 +53,14 @@ namespace Bootcamp.Overtime
         {
             System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex("^[a-zA-Z]*$");
             e.Handled = !regex.IsMatch((sender as TextBox).Text.Insert((sender as TextBox).SelectionStart, e.Text));
+        }
+
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+            MainWindow main = new MainWindow();
+            main.Show();
+            main.LoadGrid();
         }
     }
 }

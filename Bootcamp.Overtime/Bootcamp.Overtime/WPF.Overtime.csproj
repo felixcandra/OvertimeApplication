@@ -88,6 +88,12 @@
     <Compile Include="EmployeePage.xaml.cs">
       <DependentUpon>EmployeePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ForgetPassword\PopUpForgetPass.xaml.cs">
+      <DependentUpon>PopUpForgetPass.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPassword\PopUpResetPassword.xaml.cs">
+      <DependentUpon>PopUpResetPassword.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
@@ -95,17 +101,17 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PopUpPosition\PopUpDeletePosition.xaml.cs">
-      <DependentUpon>PopUpDeletePosition.xaml</DependentUpon>
+    <Compile Include="PopUpEmployee\PopUpInsertEmployee.xaml.cs">
+      <DependentUpon>PopUpInsertEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpEmployee\PopUpUpdateEmployee.xaml.cs">
+      <DependentUpon>PopUpUpdateEmployee.xaml</DependentUpon>
     </Compile>
     <Compile Include="PopUpPosition\PopUpInsertPosition.xaml.cs">
       <DependentUpon>PopUpInsertPosition.xaml</DependentUpon>
     </Compile>
     <Compile Include="PopUpPosition\PopUpUpdatePosition.xaml.cs">
       <DependentUpon>PopUpUpdatePosition.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="PositionPage.xaml.cs">
-      <DependentUpon>PositionPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -143,6 +149,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="ForgetPassword\PopUpForgetPass.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForgetPassword\PopUpResetPassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LoginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -151,19 +165,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PopUpPosition\PopUpDeletePosition.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="PopUpEmployee\PopUpInsertEmployee.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PopUpEmployee\PopUpUpdateEmployee.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="PopUpPosition\PopUpInsertPosition.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PopUpPosition\PopUpUpdatePosition.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="PositionPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -182,6 +196,7 @@
       <Name>Overtime.DataAccess</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
