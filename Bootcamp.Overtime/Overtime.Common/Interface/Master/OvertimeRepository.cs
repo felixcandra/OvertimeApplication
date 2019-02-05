@@ -21,24 +21,32 @@ namespace Overtime.Common.Interfaces.Master
 
         public List<Overtimes> Get(int? Id)
         {
-            return _context.Overtimes.Where(x => x.employee_id == Id && x.createDate.Value.Month == DateTime.Now.Month && x.difference >=3).ToList();
+            return _context.Overtimes.Where(x => x.employee_id == Id && x.difference >=3).ToList();
         }
 
 
         public bool Insert(OvertimeParam overtimeParam)
         {
-            var result = 0;
-            overtime.createDate = DateTimeOffset.Now.LocalDateTime;
-            overtime.check_in = overtimeParam.check_in;
-            overtime.employee_id = overtimeParam.employee_id;
-            _context.Overtimes.Add(overtime);
-            result = _context.SaveChanges();
-
-            if (result > 0)
+            try
             {
-                status = true;
-                MessageBox.Show("Login Successfully");
+                var result = 0;
+                overtime.createDate = DateTimeOffset.Now.LocalDateTime;
+                overtime.check_in = overtimeParam.check_in;
+                overtime.employee_id = overtimeParam.employee_id;
+                _context.Overtimes.Add(overtime);
+                result = _context.SaveChanges();
+
+                if (result > 0)
+                {
+                    status = true;
+                    MessageBox.Show("Login Successfully");
+                }
             }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.StackTrace);
+            }
+            
             return status;
 
         }
@@ -68,7 +76,7 @@ namespace Overtime.Common.Interfaces.Master
                 }
                 //Selisih ubah ke setting
 
-                overtimes.check_out = overtimeParam.check_out;
+                    overtimes.check_out = overtimeParam.check_out;
                     overtimes.difference = selisih;
                     overtimes.overtime_salary = Convert.ToInt32(overtime_salary);
                     result = _context.SaveChanges();
@@ -85,6 +93,12 @@ namespace Overtime.Common.Interfaces.Master
         {
             var get = _context.Overtimes.FirstOrDefault(x => x.employee_id == Id && x.createDate.Value.Year == DateTime.Now.Year && x.createDate.Value.Month == DateTime.Now.Month && x.createDate.Value.Day == DateTime.Now.Day);
             return get;
+        }
+
+        public List<Overtimes> GetSearch(int? id,int? bulan, int? tahun)
+        {
+            var searchOver = _context.Overtimes.Where(x => x.employee_id == id && x.createDate.Value.Month == bulan && x.difference >= 3 && x.createDate.Value.Year == tahun).ToList();
+            return searchOver;
         }
     }
 }

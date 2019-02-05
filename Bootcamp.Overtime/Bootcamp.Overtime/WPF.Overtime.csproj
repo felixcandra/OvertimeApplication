@@ -101,11 +101,17 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="PasswordDefault.xaml.cs">
+      <DependentUpon>PasswordDefault.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PopUpEmployee\PopUpInsertEmployee.xaml.cs">
       <DependentUpon>PopUpInsertEmployee.xaml</DependentUpon>
     </Compile>
     <Compile Include="PopUpEmployee\PopUpUpdateEmployee.xaml.cs">
       <DependentUpon>PopUpUpdateEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpPassword\PopUpInsertQuestionAnswer.xaml.cs">
+      <DependentUpon>PopUpInsertQuestionAnswer.xaml</DependentUpon>
     </Compile>
     <Compile Include="PopUpPosition\PopUpInsertPosition.xaml.cs">
       <DependentUpon>PopUpInsertPosition.xaml</DependentUpon>
@@ -150,18 +156,22 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="ForgetPassword\PopUpForgetPass.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="ForgetPassword\PopUpResetPassword.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="LoginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PasswordDefault.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -172,6 +182,10 @@
     <Page Include="PopUpEmployee\PopUpUpdateEmployee.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PopUpPassword\PopUpInsertQuestionAnswer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PopUpPosition\PopUpInsertPosition.xaml">
       <SubType>Designer</SubType>

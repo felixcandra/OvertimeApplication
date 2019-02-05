@@ -104,7 +104,7 @@ namespace Overtime.Common.Interface.Master
             employee.phone = employeeParam.phone;
             employee.position_id = employeeParam.position_id;
             employee.updateDate = DateTimeOffset.Now.LocalDateTime;
-            result = _context.SaveChanges();
+            _context.SaveChanges(); //kalau ada error box validation something itu berarti ada kolom yang akan diisi tapi tidak punya nilai / seharusnya tidak diupdate (username password)
             if (result > 0)
             {
                 status = true;
@@ -114,12 +114,7 @@ namespace Overtime.Common.Interface.Master
 
         public Employees Login(string username, string password)
         {
-            return _context.Employees.FirstOrDefault(x => x.username == username && x.password == password);
-        }
-
-        public Employees getUser(string username, string question, string answer)
-        {
-            return _context.Employees.FirstOrDefault(x => x.username == username && x.question == question && x.answer == answer);
+            return _context.Employees.FirstOrDefault(x => x.username.Equals(username) && x.password.Equals(password) && x.isDelete==false);
         }
 
         public bool UpdatePass(int? id, EmployeeParam employeeParam)
@@ -133,6 +128,43 @@ namespace Overtime.Common.Interface.Master
                 status = true;
             }
             return status;
+        }
+
+
+        public bool UpdateQuestionAnswer(int? id, EmployeeParam employeeParam)
+
+        {
+            var result = 0;
+            Employees employee = Get(id);
+            employee.question = employeeParam.question;
+            employee.answer = employeeParam.answer;
+            result = _context.SaveChanges();
+            if (result > 0)
+            {
+                status = true;
+            }
+            return status;
+        }
+
+
+        public bool UpdateBootcamp(int? id, EmployeeParam employeeParam)
+        {
+            var result = 0;
+            Employees employee = Get(id);
+            employee.question = employeeParam.question;
+            employee.answer = employeeParam.answer;
+            employee.password= employeeParam.password;
+            result = _context.SaveChanges();
+            if (result > 0)
+            {
+                status = true;
+            }
+            return status;
+        }
+
+        public Employees getUser(string username, string question, string answer)
+        {
+            return _context.Employees.FirstOrDefault(x => x.username == username && x.question == question && x.answer == answer);
         }
 
         public bool ResetPass(string username, string question, string answer, EmployeeParam employeeParam)
