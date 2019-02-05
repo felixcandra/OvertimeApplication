@@ -25,5 +25,6 @@ namespace Overtime.Common.Interface.Master
         Employees Login(string username, string password);
         Employees getUser(string username, string question, string answer);
         bool ResetPass(string username, string question, string answer, EmployeeParam employeeParam);
+        List<Employees> GetManager();
     }
 }

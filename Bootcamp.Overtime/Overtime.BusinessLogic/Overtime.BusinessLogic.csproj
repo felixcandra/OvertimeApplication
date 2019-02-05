@@ -52,7 +52,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Services\iEmployeeService.cs" />
+=======
+    <Compile Include="Services\iApprovalService.cs" />
+    <Compile Include="Services\iEmployeeService.cs" />
+    <Compile Include="Services\Master\ApprovalService.cs" />
+>>>>>>> dcdd46e2747bf33dd66b40d7e96c57a83d215acb
     <Compile Include="Services\Master\EmployeeService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,7 +68,13 @@
     <Compile Include="Services\Master\PositionService.cs" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="App.config" />
+=======
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+>>>>>>> dcdd46e2747bf33dd66b40d7e96c57a83d215acb
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />

@@ -24,5 +24,6 @@ namespace Overtime.BusinessLogic
         bool UpdateQuestionAnswer(int? id, EmployeeParam employeeParam);
         Employees getUser(string username, string question, string answer);
         bool ResetPass(string username, string question, string answer, EmployeeParam employeeParam);
+        List<Employees> GetManager();
     }
 }

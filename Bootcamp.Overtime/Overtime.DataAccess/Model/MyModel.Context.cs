@@ -29,5 +29,9 @@ namespace Overtime.DataAccess.Model
         public virtual DbSet<Overtimes> Overtimes { get; set; }
         public virtual DbSet<Param> Param { get; set; }
         public virtual DbSet<Position> Position { get; set; }
+<<<<<<< HEAD
+=======
+        public virtual DbSet<Approvals> Approvals1 { get; set; }
+>>>>>>> dcdd46e2747bf33dd66b40d7e96c57a83d215acb
     }
 }

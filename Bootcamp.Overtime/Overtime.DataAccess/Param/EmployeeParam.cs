@@ -23,5 +23,9 @@ namespace Overtime.DataAccess.Param
         public int? position_id { get; set; }
         public string question { get; set; }
         public string answer { get; set; }
+<<<<<<< HEAD
+=======
+        public int? manager_id { get; set; }
+>>>>>>> dcdd46e2747bf33dd66b40d7e96c57a83d215acb
     }
 }

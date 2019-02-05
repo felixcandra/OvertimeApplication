@@ -54,6 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Compile Include="Model\Approvals.cs">
+      <DependentUpon>MyModel.tt</DependentUpon>
+    </Compile>
+>>>>>>> dcdd46e2747bf33dd66b40d7e96c57a83d215acb
     <Compile Include="Model\Employees.cs">
       <DependentUpon>MyModel.tt</DependentUpon>
     </Compile>
@@ -81,6 +87,10 @@
     <Compile Include="Model\Position.cs">
       <DependentUpon>MyModel.tt</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="Param\ApprovalParam.cs" />
+>>>>>>> dcdd46e2747bf33dd66b40d7e96c57a83d215acb
     <Compile Include="Param\EmployeeParam.cs" />
     <Compile Include="Param\OvertimeParam.cs" />
     <Compile Include="Param\PositionParam.cs" />

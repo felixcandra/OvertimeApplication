@@ -95,10 +95,58 @@ namespace Overtime.Common.Interfaces.Master
             return get;
         }
 
+<<<<<<< HEAD
         public List<Overtimes> GetSearch(int? id,int? bulan, int? tahun)
         {
             var searchOver = _context.Overtimes.Where(x => x.employee_id == id && x.createDate.Value.Month == bulan && x.difference >= 3 && x.createDate.Value.Year == tahun).ToList();
             return searchOver;
+=======
+        public List<Overtimes> GetSearch(string search, string cmb) //revisi no 4
+        {
+            var refresh = Get();
+            if (cmb == "First Name")
+            {
+                var searchName = _context.Overtimes.Where(x => x.createDate.Value.Month == DateTime.Now.Month && x.difference >=3 && x.Employees.first_name.ToString().Contains(search)).ToList();
+                if(searchName == null)
+                {                    
+                    return refresh;
+                }
+                else
+                {
+                    return searchName;
+                }
+                
+            }
+            else if (cmb == "Last Name")
+            {
+                var searchName = _context.Overtimes.Where(x => x.createDate.Value.Month == DateTime.Now.Month && x.difference >=3 && x.Employees.last_name.ToString().Contains(search)).ToList();
+                if (searchName == null)
+                {
+                    return refresh;
+                }
+                else
+                {
+                    return searchName;
+                }
+            }
+            else if (cmb == "Id")
+            {
+                var searchId = _context.Overtimes.Where(x => x.createDate.Value.Month == DateTime.Now.Month && x.difference >=3 && x.employee_id.ToString().Contains(search)).ToList();
+                if (searchId == null)
+                {
+                    return refresh;
+                }
+                else
+                {
+                    return searchId;
+                }
+                return searchId;
+            }
+            else
+            {
+                return refresh;
+            }
+>>>>>>> dcdd46e2747bf33dd66b40d7e96c57a83d215acb
         }
     }
 }

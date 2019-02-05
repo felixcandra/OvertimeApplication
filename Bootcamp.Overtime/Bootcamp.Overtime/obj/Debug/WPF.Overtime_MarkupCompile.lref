@@ -1,4 +1,5 @@
 ﻿
+<<<<<<< HEAD
 FE:\Git\TUGAS\OvertimeFelix\Bootcamp.Overtime\Bootcamp.Overtime\App.xaml;;
 FE:\Git\TUGAS\OvertimeFelix\Bootcamp.Overtime\Bootcamp.Overtime\ChangeUserPass.xaml;;
 FE:\Git\TUGAS\OvertimeFelix\Bootcamp.Overtime\Bootcamp.Overtime\EmployeePage.xaml;;
@@ -12,4 +13,20 @@ FE:\Git\TUGAS\OvertimeFelix\Bootcamp.Overtime\Bootcamp.Overtime\PopUpEmployee\Po
 FE:\Git\TUGAS\OvertimeFelix\Bootcamp.Overtime\Bootcamp.Overtime\PopUpPassword\PopUpInsertQuestionAnswer.xaml;;
 FE:\Git\TUGAS\OvertimeFelix\Bootcamp.Overtime\Bootcamp.Overtime\PopUpPosition\PopUpInsertPosition.xaml;;
 FE:\Git\TUGAS\OvertimeFelix\Bootcamp.Overtime\Bootcamp.Overtime\PopUpPosition\PopUpUpdatePosition.xaml;;
+=======
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\App.xaml;;
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\ChangeUserPass.xaml;;
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\EmployeePage.xaml;;
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\ForgetPassword\PopUpForgetPass.xaml;;
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\ForgetPassword\PopUpResetPassword.xaml;;
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\LoginPage.xaml;;
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\MainWindow.xaml;;
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\ManagerPage.xaml;;
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\PasswordDefault.xaml;;
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\PopUpEmployee\PopUpInsertEmployee.xaml;;
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\PopUpEmployee\PopUpUpdateEmployee.xaml;;
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\PopUpPassword\PopUpInsertQuestionAnswer.xaml;;
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\PopUpPosition\PopUpInsertPosition.xaml;;
+FE:\Kerja\Bootcamp\OvertimeRevisi\Bootcamp.Overtime\Bootcamp.Overtime\PopUpPosition\PopUpUpdatePosition.xaml;;
+>>>>>>> dcdd46e2747bf33dd66b40d7e96c57a83d215acb
 

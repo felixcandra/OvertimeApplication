@@ -26,9 +26,13 @@ namespace WPF.Overtime
     public partial class EmployeePage : MetroWindow
     {
         MyContex _contex = new MyContex();
+<<<<<<< HEAD
         int id = Settings.Default.Id;
         OvertimeParam overtimeParam = new OvertimeParam();
 
+=======
+        
+>>>>>>> dcdd46e2747bf33dd66b40d7e96c57a83d215acb
         IOvertimeService overtimeService = new OvertimeService();
         public EmployeePage()
         {
@@ -43,10 +47,19 @@ namespace WPF.Overtime
 
         private void LogoutButton_Click(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
             
             MessageBoxResult result = MessageBox.Show("Yakin ingin Log out?", "Peringatan", MessageBoxButton.YesNo);
             if (result == MessageBoxResult.Yes)
             {
+=======
+            OvertimeParam overtimeParam = new OvertimeParam();
+            MessageBoxResult result = MessageBox.Show("Yakin ingin Log out?", "Peringatan", MessageBoxButton.YesNo);
+            if (result == MessageBoxResult.Yes)
+            {
+                overtimeParam.check_out = DateTimeOffset.Now.LocalDateTime;
+                overtimeService.Update(Settings.Default.Id, overtimeParam);
+>>>>>>> dcdd46e2747bf33dd66b40d7e96c57a83d215acb
                 LoginPage login = new LoginPage();
                 login.Show();
                 this.Close();
@@ -58,6 +71,7 @@ namespace WPF.Overtime
             ChangeUserPass change = new ChangeUserPass();
             change.Show();
         }
+<<<<<<< HEAD
 
         private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
@@ -91,5 +105,7 @@ namespace WPF.Overtime
             overtimeParam.check_out = DateTimeOffset.Now.LocalDateTime;
             overtimeService.Update(Settings.Default.Id, overtimeParam);
         }
+=======
+>>>>>>> dcdd46e2747bf33dd66b40d7e96c57a83d215acb
     }
 }

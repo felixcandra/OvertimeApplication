@@ -53,9 +53,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Interface\iEmployeeRepository.cs" />
     <Compile Include="Interface\IOvertimeRepository.cs" />
     <Compile Include="Interface\iPositionRepository.cs" />
+=======
+    <Compile Include="Interface\iApprovalRepository.cs" />
+    <Compile Include="Interface\iEmployeeRepository.cs" />
+    <Compile Include="Interface\IOvertimeRepository.cs" />
+    <Compile Include="Interface\iPositionRepository.cs" />
+    <Compile Include="Interface\Master\ApprovalRepository.cs" />
+>>>>>>> dcdd46e2747bf33dd66b40d7e96c57a83d215acb
     <Compile Include="Interface\Master\EmployeeRepository.cs" />
     <Compile Include="Interface\Master\OvertimeRepository.cs" />
     <Compile Include="Interface\Master\PositionRepository.cs" />

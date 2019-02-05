@@ -54,6 +54,7 @@ namespace Overtime.Common.Interface.Master
             employee.salary = employeeParam.salary;
             employee.phone = employeeParam.phone;
             employee.position_id = employeeParam.position_id;
+            employee.manager_id = employeeParam.manager_id;
             employee.createDate = DateTimeOffset.Now.LocalDateTime;
             employee.isDelete = false;
             _context.Employees.Add(employee);
@@ -103,6 +104,7 @@ namespace Overtime.Common.Interface.Master
             employee.salary = employeeParam.salary;
             employee.phone = employeeParam.phone;
             employee.position_id = employeeParam.position_id;
+            employee.manager_id = employeeParam.manager_id;
             employee.updateDate = DateTimeOffset.Now.LocalDateTime;
             _context.SaveChanges(); //kalau ada error box validation something itu berarti ada kolom yang akan diisi tapi tidak punya nilai / seharusnya tidak diupdate (username password)
             if (result > 0)
@@ -178,6 +180,12 @@ namespace Overtime.Common.Interface.Master
                 status = true;
             }
             return status;
+        }
+
+        public List<Employees> GetManager()
+        {
+            var getManager = _context.Employees.Where(x => x.position_id == 5 && x.isDelete == false).ToList();
+            return getManager;
         }
     }
 }

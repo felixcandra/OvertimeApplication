@@ -71,5 +71,10 @@ namespace Overtime.BusinessLogic.Master
         {
             return _employeeRepository.ResetPass(username, question, answer, employeeParam);
         }
+
+        public List<Employees> GetManager()
+        {
+            return _employeeRepository.GetManager();
+        }
     }
 }
