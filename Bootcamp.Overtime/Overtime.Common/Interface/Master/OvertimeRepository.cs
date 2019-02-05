@@ -27,18 +27,26 @@ namespace Overtime.Common.Interfaces.Master
 
         public bool Insert(OvertimeParam overtimeParam)
         {
-            var result = 0;
-            overtime.createDate = DateTimeOffset.Now.LocalDateTime;
-            overtime.check_in = overtimeParam.check_in;
-            overtime.employee_id = overtimeParam.employee_id;
-            _context.Overtimes.Add(overtime);
-            result = _context.SaveChanges();
-
-            if (result > 0)
+            try
             {
-                status = true;
-                MessageBox.Show("Login Successfully");
+                var result = 0;
+                overtime.createDate = DateTimeOffset.Now.LocalDateTime;
+                overtime.check_in = overtimeParam.check_in;
+                overtime.employee_id = overtimeParam.employee_id;
+                _context.Overtimes.Add(overtime);
+                result = _context.SaveChanges();
+
+                if (result > 0)
+                {
+                    status = true;
+                    MessageBox.Show("Login Successfully");
+                }
             }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.StackTrace);
+            }
+            
             return status;
 
         }
@@ -85,6 +93,53 @@ namespace Overtime.Common.Interfaces.Master
         {
             var get = _context.Overtimes.FirstOrDefault(x => x.employee_id == Id && x.createDate.Value.Year == DateTime.Now.Year && x.createDate.Value.Month == DateTime.Now.Month && x.createDate.Value.Day == DateTime.Now.Day);
             return get;
+        }
+
+        public List<Overtimes> GetSearch(string search, string cmb) //revisi no 4
+        {
+            var refresh = Get();
+            if (cmb == "First Name")
+            {
+                var searchName = _context.Overtimes.Where(x => x.createDate.Value.Month == DateTime.Now.Month && x.difference >=3 && x.Employees.first_name.ToString().Contains(search)).ToList();
+                if(searchName == null)
+                {                    
+                    return refresh;
+                }
+                else
+                {
+                    return searchName;
+                }
+                
+            }
+            else if (cmb == "Last Name")
+            {
+                var searchName = _context.Overtimes.Where(x => x.createDate.Value.Month == DateTime.Now.Month && x.difference >=3 && x.Employees.last_name.ToString().Contains(search)).ToList();
+                if (searchName == null)
+                {
+                    return refresh;
+                }
+                else
+                {
+                    return searchName;
+                }
+            }
+            else if (cmb == "Id")
+            {
+                var searchId = _context.Overtimes.Where(x => x.createDate.Value.Month == DateTime.Now.Month && x.difference >=3 && x.employee_id.ToString().Contains(search)).ToList();
+                if (searchId == null)
+                {
+                    return refresh;
+                }
+                else
+                {
+                    return searchId;
+                }
+                return searchId;
+            }
+            else
+            {
+                return refresh;
+            }
         }
     }
 }

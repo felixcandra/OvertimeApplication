@@ -20,6 +20,8 @@ using Overtime.DataAccess.Param;
 using Overtime.BusinessLogic.Master;
 using Overtime.BussinessLogic.Services;
 using Overtime.BussinessLogic.Services.Master;
+using WPF.Overtime.Properties;
+using WPF.Overtime;
 
 namespace Bootcamp.Overtime
 {
@@ -99,6 +101,7 @@ namespace Bootcamp.Overtime
                 popup.PhoneTextbox.Text = (EmployeeGrid.SelectedCells[8].Column.GetCellContent(item) as TextBlock).Text;
                 popup.SalaryTextbox.Text = (EmployeeGrid.SelectedCells[9].Column.GetCellContent(item) as TextBlock).Text;
                 popup.position = (EmployeeGrid.SelectedCells[10].Column.GetCellContent(item) as TextBlock).Text;
+                popup.manager = (EmployeeGrid.SelectedCells[11].Column.GetCellContent(item) as TextBlock).Text;
                 popup.Show();
                 this.Hide();
             }
@@ -185,6 +188,31 @@ namespace Bootcamp.Overtime
         private void dataGrid1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+        }
+
+        private void ChangeButton_Click(object sender, RoutedEventArgs e)
+        {
+            ChangeUserPass change = new ChangeUserPass();
+            change.Show();
+        }
+
+        private void LogoutButton_Click(object sender, RoutedEventArgs e)
+        {
+            OvertimeParam overtimeParam = new OvertimeParam();
+            MessageBoxResult result = MessageBox.Show("Yakin ingin Log out?", "Peringatan", MessageBoxButton.YesNo);
+            if (result == MessageBoxResult.Yes)
+            {
+                overtimeParam.check_out = DateTimeOffset.Now.LocalDateTime;
+                _overtimeService.Update(Settings.Default.Id, overtimeParam);
+                LoginPage login = new LoginPage();
+                login.Show();
+                this.Close();
+            }
+        }
+
+        private void SearchButton2_Click(object sender, RoutedEventArgs e)
+        {
+           OvertimeEmployeeGrid.ItemsSource = _overtimeService.GetSearch(SearchTextBox2.Text, SearchcomboBox2.Text);
         }
     }
 }
